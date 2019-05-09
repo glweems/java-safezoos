@@ -39,7 +39,7 @@ public class SeedData implements CommandLineRunner
 
         rolerepos.save(r1);
         rolerepos.save(r2);
-        User u1 = new User("barnbarn", "ILuvM4th!", users);
+        User u1 = new User("gw", "pwd", users);
 //        u1.getQuotes().add(new Quote("Live long and prosper", u1));
 //        u1.getQuotes().add(new Quote("The enemy of my enemy is the enemy I kill last", u1));
 //        u1.getQuotes().add(new Quote("Beam me up", u1));
